@@ -8,7 +8,7 @@ def quick_sort(array):
   pivot = array[0] # set first element as pivot
   tail = array[1:] # set tail as rest
   
-  left_side = [x for x in tail if x <= pivot] # elements equal to or smaller than of pivot
+  left_side = [x for x in tail if x <= pivot] # elements equal to or smaller than pivot
   right_side = [x for x in tail if x > pivot] # elements larger than pivot
   
   # return full quick sorted list 
