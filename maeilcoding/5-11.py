@@ -31,10 +31,11 @@ def bfs(x, y):
             # skip if hits wall
             if graph[nx][ny] == 0:
                 continue
-            # visit if unvisited
+            # visit if unvisited (+ 1 to value)
             if graph[nx][ny] == 1:
                 graph[nx][ny] = graph[x][y] + 1
                 queue.append((nx, ny))
+
     # return shortest path length
     return graph[n -1][m - 1]
 
