@@ -10,3 +10,4 @@ for i in range(len(count)): # for each number in count list
   for j in range(count[i]): 
     print(i, end=" ") # print i element j times
   
+print()
