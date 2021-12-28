@@ -8,3 +8,4 @@ for i in range(1, len(array)):
             break
 
 print(array)
+print()
